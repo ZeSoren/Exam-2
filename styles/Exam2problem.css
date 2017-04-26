@@ -1,0 +1,22 @@
+table, th, td {border: 1px solid black;}
+th {text-align: left;}
+
+h1{font-family: sans-serif;}
+h2{font-family: sans-serif;}
+
+div.div1 {visibility: hidden;}
+div.div2 {visibility: hidden; position: fixed; top: 140px;}
+div.div3 {visibility: hidden; position: fixed; top: 140px;}
+div.div4 {visibility: hidden; position: fixed; top: 140px;}
+div.div5 {visibility: hidden; position: fixed; top: 140px;}
+
+section.section1 {max-width: 600px; overflow: scroll; position: relative;}
+
+section.section2 {max-width: 600px; overflow: scroll; position: relative;}
+
+section.section3 {max-width: 600px; overflow: scroll; position: relative;}
+
+section.section4 {max-width: 600px; overflow: scroll; position: relative;}
+
+section.section5 {max-width: 600px; overflow: scroll; position: relative;}
+

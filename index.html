@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Exam 2</title>
+    <link rel="stylesheet" type="text/css" href="styles/Exam2problem.css" />
+    <script src="js/Exam2problem.js"></script>
+</head>
+
+<body>
+    <h1> Exam 2 Problem</h1>
+    <hr>
+    <br>
+    <section id="list">
+        <select onchange="menuselect()" id="menu">
+        <option>Please select an option</option>
+                <option>Category List</option>
+                <option>Create a Category</option>
+                <option>Update a Category</option>
+                <option>Delete a Category</option>
+                <option>About Me</option>
+        </select>
+    </section>
+    <hr>
+    <div class="div1">
+    <section id="section1">
+        <h2>Category List</h2>
+        <hr>
+       <button onclick="getlist()" id="catlist">Display Category List</button>
+       <br>
+       <hr>
+       <br>
+        <label id="result1">The category list will be displayed here.</label>
+     </section>
+    </div>
+    <div class="div2">
+    <section id="section2">
+        <h2>Create a Category</h2>
+        <hr>
+         <label>Please enter category name: </label>
+       <input type="text" id="catid">
+       <br>
+       <label>Pleaes enter the category's description: </label>
+       <input type="text" id="catdescrip">
+       <button onclick="CreateCategory()" id="newcat">Create New Category</button>
+       <br>
+       <hr>
+       <br>
+        <label id="result2">The operation's result will display here.</label>
+     </section>
+    </div>
+    <div class="div3">
+     <section id="section3">
+        <h2>Update Category Description</h2>
+        <hr>
+        <label>Please enter the Category ID</label>
+        <input type="text" id="oldid">
+        <br>
+        <label>Please enter the new description</label>
+        <input type="text" id="newdescrip">
+        <br>
+        <button onclick="UpdateCategory()" id="upcat">Update Category</button>
+        <br>
+        <hr>
+        <br>
+        <label id="result3">The operation's result will display here.</label>
+     </section>
+    </div>
+    <div class="div4">
+     <section id="section4">
+        <h2>Delete Category</h2>
+        <hr>
+        <label>Please enter the Category ID: </label>
+       <input type="text" id="lastid">
+       <br>
+       <button onclick="DeleteCategory()" id="deletecat">Delete Category</button>
+       <br>
+       <hr>
+       <br>
+       <label id="result4">The operations result will display here.</label>
+     </section>
+    </div>
+    <div class="div5">
+    <section id="section5">
+        <h2>About Me</h2>
+        <hr>
+        <label id="name">My name is Jeral Lavender II</label>
+        <br>
+        <label id="major">My major is Information Systems</label>
+        <br>
+        <label id="date">My graduation date is August 12th, 2017</label>
+        <br>
+        <label id="fact">Fun fact: My favorite type of music is music from video games.</label>
+    </section>
+    </div>
+    
+
+
+
+</body>
+</html>
